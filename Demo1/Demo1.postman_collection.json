@@ -1,0 +1,172 @@
+{
+  "info": {
+    "_postman_id": "cc7e6b65-ec58-4b3d-a43b-8c5b6099814b",
+    "name": "Demo1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "4662588",
+    "_collection_link": "https://go.postman.co/collection/4662588-cc7e6b65-ec58-4b3d-a43b-8c5b6099814b?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Save owner and pet",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "password",
+              "value": "P@$$w0rd",
+              "type": "string"
+            },
+            {
+              "key": "username",
+              "value": "abhishek",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"firstName\",\r\n    \"lastName\": \"lastName\",\r\n    \"gender\": \"F\",\r\n    \"city\": \"city\",\r\n    \"state\": \"state\",\r\n    \"emailId\": \"mailId@scaleupindia.com\",\r\n    \"mobileNumber\": \"9009009099\",\r\n    \"petDTO\": {\r\n        \"name\": \"petName\",\r\n        \"gender\": \"M\",\r\n        \"type\": \"BIRD\",\r\n        \"category\": \"Domestic\",\r\n        \"birthDate\": \"2026-01-01\"\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/owners",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "owners"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get owner and pet",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "abhishek",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "P@$$w0rd",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/owners/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "owners",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete owner and pet",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "abhishek",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "P@$$w0rd",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/owners/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "owners",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get all owners and pets",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "abhishek",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "P@$$w0rd",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/owners?page=0&size=1&sort=id,asc",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "owners"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "0"
+            },
+            {
+              "key": "size",
+              "value": "1"
+            },
+            {
+              "key": "sort",
+              "value": "id,asc"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
