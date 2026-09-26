@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umlmark-class version="0.8.1" icons="true" show-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-rel="true" router="FAN">  
+  <interface id="1" language="java" name="com.abhishekvermaa10.repository.OwnerRepository" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/repository/OwnerRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1405" y="89"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="com.abhishekvermaa10.service.OwnerService" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/service/OwnerService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="964" y="122"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.abhishekvermaa10.service.impl.OwnerServiceImpl" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/service/impl/OwnerServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="965" y="340"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.abhishekvermaa10.Demo" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/Demo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="226" y="94"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.abhishekvermaa10.controller.OwnerController" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/controller/OwnerController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="532" y="121"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.abhishekvermaa10.controller.advice.ExceptionControllerAdvice" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/controller/advice/ExceptionControllerAdvice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="433" y="361"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.abhishekvermaa10.exception.OwnerNotFoundException" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/exception/OwnerNotFoundException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="393" y="540"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.abhishekvermaa10.util.OwnerMapper" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/util/OwnerMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1329" y="339"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="com.abhishekvermaa10.dto.OwnerDTO" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/dto/OwnerDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="235" y="973"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.abhishekvermaa10.entity.Owner" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/entity/Owner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1151" y="900"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.abhishekvermaa10.entity.Base" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/entity/Base.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1302" y="543"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.abhishekvermaa10.entity.Pet" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/entity/Pet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1447" y="772"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.abhishekvermaa10.dto.PetDTO" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/dto/PetDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="572" y="842"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.abhishekvermaa10.dto.DomesticPetDTO" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/dto/DomesticPetDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="460" y="1162"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.abhishekvermaa10.dto.WildPetDTO" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/dto/WildPetDTO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="699" y="1160"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.abhishekvermaa10.entity.WildPet" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/entity/WildPet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1533" y="1080"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.abhishekvermaa10.entity.DomesticPet" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/entity/DomesticPet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1331" y="1080"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="18" language="java" name="com.abhishekvermaa10.enums.Gender" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/enums/Gender.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="706" y="548"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="19" language="java" name="com.abhishekvermaa10.enums.PetType" project="Demo2" 
+    file="/Demo2/src/main/java/com/abhishekvermaa10/enums/PetType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="949" y="575"/>    
+    <display resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" sort="true" 
+      accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <association id="20">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="21" name="ownerRepository"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="24" name="type"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="26">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="28">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="29" name="gender"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="33">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="34" name="gender"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <association id="37">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="38" name="gender"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="41" name="petDTO"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="44" name="pet"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="47">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="48" name="gender"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="51" name="ownerMapper"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="54" name="ownerService"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="57">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="58" name="type"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-attribute resize-to-fit="true" stereotype="true" package="true" default-value="false" signature="true" 
+    sort="true" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="false"/>    
+    <operations public="true" package="true" protected="true" private="true" static="false"/>  
+  </classifier-attribute>  
+  <association-attribute labels="true" multiplicity="true"/>
+</umlmark-class>
