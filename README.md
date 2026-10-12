@@ -10,8 +10,8 @@
 <ol align="left">
     <li>Build a REST API for Spring Security</li>
 	<li>What Happens When You Add Spring Security?</li>
-	<li>How Does the Spring Security Filter Chain Work?</li>
-	<li>Customize Spring Security Using SecurityFilterChain</li>
+	<li>Game of Filters</li>
+	<li>Customizing Spring Security with SecurityFilterChain</li>
 	<li>Create In-Memory Users in Spring Security</li>
 	<li>Password Encoding with BCryptPasswordEncoder</li>
 	<li>Role-Based Authorization in Spring Security</li>
